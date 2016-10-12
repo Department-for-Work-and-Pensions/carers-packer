@@ -1,3 +1,4 @@
 output-vmware-iso/
 packer_cache/
 iso/
+.DS_Store
