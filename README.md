@@ -21,6 +21,7 @@ To use this project you will need the follow
 * Packer (https://www.packer.io/)
 * VMWare ovftool (https://www.vmware.com/support/developer/ovf/)
 * VMWare Fusion (http://www.vmware.com/products/fusion.html)
+* RHEL 7 ISO (https://www.redhat.com/)
 
 
 ## Upstream sources
