@@ -35,4 +35,4 @@ Took some inspiration from the following git repos and they both require attribu
 
 ## Jenkins
 
-The first obvious question is where is the Jenkinsfile or why is this not in Jenkins. Sadly this requires VMWare tools that are not available on our Linux Jenkins hosts. In the future we could have a macOS Jenkins slave that has VMWare Fusion installed where this could run. From now this need to run on your workstation.
+The first obvious question is where is the Jenkinsfile or why is this not in Jenkins. Sadly this requires VMWare tools that are not available on our Linux Jenkins hosts. In the future we could have a macOS Jenkins slave that has VMWare Fusion installed where this could run. From now this needs to run on your workstation.
