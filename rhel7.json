@@ -35,6 +35,8 @@
     "execute_command": "{{.Vars}} bash '{{.Path}}'",
     "scripts": [
       "scripts/vmware.sh",
+      "scripts/epel.sh",
+      "scripts/salt.sh",
       "scripts/cleanup.sh"
     ]
   }]

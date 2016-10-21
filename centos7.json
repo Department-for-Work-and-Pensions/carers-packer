@@ -9,7 +9,7 @@
     "headless": false,
     "type": "vmware-iso",
     "vm_name": "{{user `vm_name`}}",
-    "guest_os_type": "centos7-64",
+    "guest_os_type": "rhel7-64",
     "vmdk_name": "centos7",
     "disk_size": "8192",
     "iso_checksum_type": "sha256",
@@ -35,6 +35,8 @@
     "execute_command": "{{.Vars}} bash '{{.Path}}'",
     "scripts": [
       "scripts/vmware.sh",
+      "scripts/epel.sh",
+      "scripts/salt.sh",
       "scripts/cleanup.sh"
     ]
   }]
